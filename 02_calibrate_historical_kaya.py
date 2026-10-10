@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import pathlib
@@ -6,6 +7,18 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from scipy import stats
+
+# --- data location -------------------------------------------------------
+# Resolves to the data bundled with this repository. Override with the
+# MATH3041_DATA_DIR environment variable if your data lives elsewhere.
+DATA_DIR = pathlib.Path(
+    os.environ.get(
+        "MATH3041_DATA_DIR",
+        pathlib.Path(__file__).resolve().parent / "data" / "MATH3041_NetZero_Cleaned_Data",
+    )
+)
+CDR_DIR = DATA_DIR.parent / "MATH3041_Carbon_Removal_Data_20260730"
+
 for f in ["Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS"]:
     try:
         font_manager.findfont(f, fallback_to_default=False)
@@ -17,7 +30,7 @@ plt.rcParams["axes.unicode_minus"] = False
 OUT_DIR = pathlib.Path(__file__).resolve().parent / "calibration_results"
 OUT_DIR.mkdir(exist_ok=True)
 print("Output directory:", OUT_DIR)
-cal = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/01_calibration_input_data_1965_2024.csv")
+cal = pd.read_csv(DATA_DIR / "01_calibration_input_data_1965_2024.csv")
 def fc(s):
     for c in cal.columns:
         if s.lower() in c.lower():
@@ -32,15 +45,18 @@ E_obs = cal[fc("fossil_co2")].to_numpy(dtype=float)
 B_obs = cal[fc("cumulative_fossil_co2")].to_numpy(dtype=float)
 T_obs = cal[fc("temperature")].to_numpy(dtype=float)
 R = np.zeros(len(year))
-nat = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Natural_CDR_Data_20260730/MATH3041_Natural_CDR_Data_20260730/01_DATA/natural_cdr_model_input_global_2005_2024.csv")
+nat = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_conventional_cdr_global_2005_2024.csv")
+nat["natural_cdr_mtco2_per_year"] = nat["conventional_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, r in nat.iterrows():
     R[year == int(r["year"])] += float(r["natural_cdr_mtco2_per_year"])
-art = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Artificial_CDR_Data_20260730/01_DATA/artificial_cdr_historical_global_2017_2025.csv")
+art = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_global_2017_2025.csv")
+art["artificial_cdr_mtco2_per_year"] = art["novel_cdr_mtco2_per_year"]
 for _, r in art.iterrows():
     yy = int(r["year"])
     if 2017 <= yy <= 2022:
         R[year == yy] += float(r["artificial_cdr_mtco2_per_year"])
-am = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Artificial_CDR_Data_20260730/01_DATA/artificial_cdr_model_input_global_2023_2030.csv")
+am = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_pipeline_total_global_2023_2030.csv")
+am["artificial_cdr_mtco2_per_year"] = am["novel_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, r in am.iterrows():
     yy = int(r["year"])
     if r["data_status"] == "actual_delivered_cdr" and 2023 <= yy <= 2024:
@@ -98,7 +114,7 @@ rmse_to, mae_to, _, r2_to, _ = metrics(T_obs[~mask_tr], T_oos)
 print(f"Holdout validation (2011-2024): RMSE={rmse_to:.3f} °C, MAE={mae_to:.3f} °C, R2={r2_to:.4f}")
 print("\n" + "=" * 70)
 print("[5. Sea-Level Calibration: dH/dt = a*(T - T0)]")
-sl = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/sea-level.csv")
+sl = pd.read_csv(DATA_DIR / "sea-level.csv")
 sl["year"] = sl["Day"].str[:4].astype(int)
 H_ann = sl.groupby("year")["Average of Church and White (2011) and UHSLC"].mean()
 years_h = np.array([y for y in H_ann.index if 1965 <= y <= 2020])

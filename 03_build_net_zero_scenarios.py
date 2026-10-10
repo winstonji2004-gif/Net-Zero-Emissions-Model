@@ -11,8 +11,14 @@ from matplotlib import font_manager
 from scipy import stats
 from scipy.optimize import brentq
 BASE_DIR = pathlib.Path(
-    os.environ.get("MATH3041_DATA_DIR", r"F:/MATH3041_NetZero_Cleaned_Data")
+    os.environ.get(
+        "MATH3041_DATA_DIR",
+        pathlib.Path(__file__).resolve().parent
+        / "data"
+        / "MATH3041_NetZero_Cleaned_Data",
+    )
 )
+CDR_DIR = BASE_DIR.parent / "MATH3041_Carbon_Removal_Data_20260730"
 OUT_DIR = BASE_DIR / "scenario_results_corrected"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 INCLUDE_NATURAL_CDR = True
@@ -111,25 +117,20 @@ if year_h[-1] != 2024:
 R_nat_h = np.zeros(len(year_h), dtype=float)
 R_art_h = np.zeros(len(year_h), dtype=float)
 nat_path = require_file(
-    BASE_DIR
-    / "MATH3041_Natural_CDR_Data_20260730"
-    / "MATH3041_Natural_CDR_Data_20260730"
-    / "01_DATA"
-    / "natural_cdr_model_input_global_2005_2024.csv"
+    CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_conventional_cdr_global_2005_2024.csv"
 )
 nat = pd.read_csv(nat_path)
+nat["natural_cdr_mtco2_per_year"] = nat["conventional_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, row in nat.iterrows():
     yy = int(row["year"])
     mask = year_h == yy
     if np.any(mask):
         R_nat_h[mask] += float(row["natural_cdr_mtco2_per_year"])
 art_hist_path = require_file(
-    BASE_DIR
-    / "MATH3041_Artificial_CDR_Data_20260730"
-    / "01_DATA"
-    / "artificial_cdr_historical_global_2017_2025.csv"
+    CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_global_2017_2025.csv"
 )
 art_hist = pd.read_csv(art_hist_path)
+art_hist["artificial_cdr_mtco2_per_year"] = art_hist["novel_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, row in art_hist.iterrows():
     yy = int(row["year"])
     if 2017 <= yy <= 2022:
@@ -137,12 +138,10 @@ for _, row in art_hist.iterrows():
         if np.any(mask):
             R_art_h[mask] += float(row["artificial_cdr_mtco2_per_year"])
 art_model_path = require_file(
-    BASE_DIR
-    / "MATH3041_Artificial_CDR_Data_20260730"
-    / "01_DATA"
-    / "artificial_cdr_model_input_global_2023_2030.csv"
+    CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_pipeline_total_global_2023_2030.csv"
 )
 art_model = pd.read_csv(art_model_path)
+art_model["artificial_cdr_mtco2_per_year"] = art_model["novel_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, row in art_model.iterrows():
     yy = int(row["year"])
     if (
@@ -180,15 +179,12 @@ IE_f = IE_I0 * np.exp(-IE_R * (years_f - IE_BASE_YEAR))
 IC_f = IC_IMIN + IC_A * np.exp(-IC_R * (years_f - IC_BASE_YEAR))
 E_gross_f = P_f * g_f * IE_f * IC_f / 1e9
 iam_path = require_file(
-    BASE_DIR
-    / "MATH3041_Artificial_CDR_Data_20260730"
-    / "01_DATA"
-    / "artificial_cdr_scenarios_global_2030_2100.csv"
+    CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_scenario_total_cdr_global_2030_2100.csv"
 )
 iam = pd.read_csv(iam_path)
 iam["year"] = pd.to_numeric(iam["year"], errors="coerce")
-iam["artificial_cdr_mtco2_per_year"] = pd.to_numeric(
-    iam["artificial_cdr_mtco2_per_year"], errors="coerce"
+iam["artificial_cdr_mtco2_per_year"] = pd.to_numeric(  # cleaned package renamed this column
+    iam["value_mtco2_per_year"], errors="coerce"
 )
 iam = iam.dropna(subset=["year", "artificial_cdr_mtco2_per_year"])
 iam["year"] = iam["year"].astype(int)

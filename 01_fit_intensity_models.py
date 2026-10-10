@@ -51,8 +51,7 @@ DATA_FILENAMES = [
 SEARCH_DIRECTORIES = [
     SCRIPT_DIR,
     Path.cwd(),
-    Path("/mnt/data"),
-    Path(r"F:/MATH3041_NetZero_Cleaned_Data"),
+    Path(os.getenv("MATH3041_DATA_DIR", SCRIPT_DIR / "data" / "MATH3041_NetZero_Cleaned_Data")),
     Path(r"C:/Users/winst/Desktop/groupwork"),
     Path(r"C:/Users/winst/Desktop/groupwork/data/MATH3041"),
 ]

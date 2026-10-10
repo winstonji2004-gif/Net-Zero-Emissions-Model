@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import pathlib
@@ -6,6 +7,18 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from scipy import stats
+
+# --- data location -------------------------------------------------------
+# Resolves to the data bundled with this repository. Override with the
+# MATH3041_DATA_DIR environment variable if your data lives elsewhere.
+DATA_DIR = pathlib.Path(
+    os.environ.get(
+        "MATH3041_DATA_DIR",
+        pathlib.Path(__file__).resolve().parent / "data" / "MATH3041_NetZero_Cleaned_Data",
+    )
+)
+CDR_DIR = DATA_DIR.parent / "MATH3041_Carbon_Removal_Data_20260730"
+
 for f in ["Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS"]:
     try:
         font_manager.findfont(f, fallback_to_default=False)
@@ -17,7 +30,7 @@ plt.rcParams["axes.unicode_minus"] = False
 OUT_DIR = pathlib.Path(__file__).resolve().parent / "sensitivity_results"
 OUT_DIR.mkdir(exist_ok=True)
 print("Output directory:", OUT_DIR)
-cal = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/01_calibration_input_data_1965_2024.csv")
+cal = pd.read_csv(DATA_DIR / "01_calibration_input_data_1965_2024.csv")
 def fc(s):
     for c in cal.columns:
         if s.lower() in c.lower():
@@ -32,22 +45,25 @@ E_obs = cal[fc("fossil_co2")].to_numpy(dtype=float)
 B_obs = cal[fc("cumulative_fossil_co2")].to_numpy(dtype=float)
 T_obs = cal[fc("temperature")].to_numpy(dtype=float)
 R_h = np.zeros(len(year_h))
-nat = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Natural_CDR_Data_20260730/MATH3041_Natural_CDR_Data_20260730/01_DATA/natural_cdr_model_input_global_2005_2024.csv")
+nat = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_conventional_cdr_global_2005_2024.csv")
+nat["natural_cdr_mtco2_per_year"] = nat["conventional_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, r in nat.iterrows():
     R_h[year_h == int(r["year"])] += float(r["natural_cdr_mtco2_per_year"])
-art = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Artificial_CDR_Data_20260730/01_DATA/artificial_cdr_historical_global_2017_2025.csv")
+art = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_global_2017_2025.csv")
+art["artificial_cdr_mtco2_per_year"] = art["novel_cdr_mtco2_per_year"]
 for _, r in art.iterrows():
     yy = int(r["year"])
     if 2017 <= yy <= 2022:
         R_h[year_h == yy] += float(r["artificial_cdr_mtco2_per_year"])
-am = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/MATH3041_Artificial_CDR_Data_20260730/01_DATA/artificial_cdr_model_input_global_2023_2030.csv")
+am = pd.read_csv(CDR_DIR / "02_CLEANED_MODEL_INPUTS" / "socdr_novel_cdr_pipeline_total_global_2023_2030.csv")
+am["artificial_cdr_mtco2_per_year"] = am["novel_cdr_mtco2_per_year"]  # cleaned package renamed this column
 for _, r in am.iterrows():
     yy = int(r["year"])
     if r["data_status"] == "actual_delivered_cdr" and 2023 <= yy <= 2024:
         R_h[year_h == yy] += float(r["artificial_cdr_mtco2_per_year"])
-un = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/07_un_wpp_population_projection_2025_2100.csv")
+un = pd.read_csv(DATA_DIR / "07_un_wpp_population_projection_2025_2100.csv")
 un = un.set_index("year")["un_wpp_population_people"]
-oecd = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/OECD.ECO.MAD,DSD_EO_LTB@DF_EO_LTB,+W.GDPVTRD_CAP.BAU1.A.csv")
+oecd = pd.read_csv(DATA_DIR / "OECD.ECO.MAD,DSD_EO_LTB@DF_EO_LTB,+W.GDPVTRD_CAP.BAU1.A.csv")
 oecd = oecd.assign(year=oecd["TIME_PERIOD"].astype(int)).set_index("year")["OBS_VALUE"].astype(float)
 oecd = oecd[oecd.index >= 2020]
 years_f = np.arange(2025, 2101)
@@ -62,7 +78,7 @@ Imin0, dI0, rC0 = 0.22273, 0.04172, 0.040895
 B_net_obs = B_obs - np.cumsum(R_h) / 1000.0
 res_t = stats.linregress(B_net_obs, T_obs)
 alpha0, a0 = res_t.slope, res_t.intercept
-sl = pd.read_csv(r"F:/MATH3041_NetZero_Cleaned_Data/sea-level.csv")
+sl = pd.read_csv(DATA_DIR / "sea-level.csv")
 sl["year"] = sl["Day"].str[:4].astype(int)
 H_ann = sl.groupby("year")["Average of Church and White (2011) and UHSLC"].mean()
 years_sl = np.array([y for y in H_ann.index if 1965 <= y <= 2020])
