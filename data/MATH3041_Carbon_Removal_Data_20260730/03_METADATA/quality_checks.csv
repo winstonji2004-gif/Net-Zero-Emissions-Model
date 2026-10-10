@@ -1,0 +1,19 @@
+﻿check_id,file,check,result,observed,expected,details
+Q01,socdr_conventional_cdr_global_2005_2024.csv,Unique annual rows,PASS,20,20,One row per year is required.
+Q02,socdr_conventional_cdr_global_2005_2024.csv,Continuous years,PASS,2005-2024 (20 rows),2005-2024 (20 rows),No missing years.
+Q03,socdr_conventional_cdr_global_2005_2024.csv,Draft baseline match,PASS,2194.05,2194.05,Exact 2023 value used in the supplied model draft.
+Q04,socdr_novel_cdr_global_2017_2025.csv,Continuous years,PASS,2017-2025 (9 rows),2017-2025 (9 rows),No missing years.
+Q05,socdr_novel_cdr_by_method_global_2017_2025.csv,Unique year-method keys,PASS,54,54,Each reported year-method pair occurs once.
+Q06,socdr_novel_cdr_pipeline_global_2023_2030.csv,Unique pipeline keys,PASS,52,52,Each year-method-component key occurs once.
+Q07,socdr_novel_cdr_pipeline_total_global_2023_2030.csv,2023 draft anchor after rounding,PASS,1.3989800000000001,rounds to 1.399,Reproduces the supplied draft's 2023 novel-CDR baseline.
+Q08,socdr_novel_cdr_pipeline_total_global_2023_2030.csv,2030 draft anchor after rounding,PASS,8.33097,rounds to 8.331,Reproduces the supplied draft's 2030 pipeline endpoint.
+Q09,socdr_model_core_historical_global_2005_2025.csv,No imputed source gaps,PASS,Source gaps remain blank,No extrapolation,Availability flags identify all missing periods.
+Q10,socdr_scenario_total_cdr_global_2030_2100.csv,Unique scenario keys,PASS,276,276,Each model-scenario-category-year key occurs once.
+Q11,socdr_scenario_total_cdr_global_2030_2100.csv,Unit conversion,PASS,All rows,Mt value = Gt value x 1000,Conversion identity checked.
+Q12,gcb_land_ocean_sinks_global_1750_2024.csv,Continuous years,PASS,1750-2024 (275 rows),1750-2024 (275 rows),No missing annual rows.
+Q13,gcb_land_ocean_sinks_global_1750_2024.csv,Unit conversion,PASS,All rows,Mt CO2 = Gt C x 44/12 x 1000,Conversion identity checked.
+Q14,faostat_forest_fluxes_world_1990_2025.csv,Continuous years,PASS,1990-2025 (36 rows),1990-2025 (36 rows),No missing annual rows.
+Q15,faostat_forest_fluxes_world_1990_2025.csv,Sign and unit conversion,PASS,All rows,Removal-positive Mt CO2 = -official kt / 1000,Official negative-removal convention is preserved alongside normalized values.
+Q16,cross_source_reference_global_2005_2024.csv,Complete common year grid,PASS,20 rows; missing cells=0,20 rows; 0 missing cells,All three source datasets cover the common period.
+Q17,model_anchor_values.csv,All anchor values finite,PASS,5,5,No missing or infinite anchor values.
+Q18,faostat_forest_fluxes_world_1990_2025.csv,FAOSTAT forest accounting identity,PASS,maximum absolute difference 0.000100 kt CO2/yr,Carbon stock change = Forestland + Net Forest conversion within 0.001 kt CO2/yr,The three FAOSTAT series are components and a balance; they must not be summed as independent removals.

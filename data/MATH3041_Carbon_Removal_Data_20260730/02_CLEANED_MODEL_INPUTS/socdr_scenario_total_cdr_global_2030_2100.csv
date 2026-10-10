@@ -1,0 +1,277 @@
+﻿year,geography,model,scenario,cdr_category,value_gtco2_per_year,value_mtco2_per_year,data_status,source_variable,source_unit,source_file
+2030,World,AIM 3.0,Delayed Ambition,Conventional CDR,2.534787000,2534.787000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Delayed Ambition,Conventional CDR,2.956048000,2956.048000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Delayed Ambition,Conventional CDR,3.763538000,3763.538000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Delayed Ambition,Conventional CDR,3.874560000,3874.560000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Delayed Ambition,Novel CDR,0.009575000,9.575000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Delayed Ambition,Novel CDR,0.031505000,31.505000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Delayed Ambition,Novel CDR,1.302459000,1302.459000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Delayed Ambition,Novel CDR,23.589250000,23589.250000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Delayed Ambition,Total CDR,2.544361000,2544.361000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Delayed Ambition,Total CDR,2.987553000,2987.553000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Delayed Ambition,Total CDR,5.065998000,5065.998000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Delayed Ambition,Total CDR,27.463810000,27463.810000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Delayed Ambition,Conventional CDR,1.599457000,1599.457000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Delayed Ambition,Conventional CDR,2.083116000,2083.116000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Delayed Ambition,Conventional CDR,7.669767000,7669.767000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Delayed Ambition,Conventional CDR,3.739865000,3739.865000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Delayed Ambition,Novel CDR,0.134874000,134.874000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Delayed Ambition,Novel CDR,0.184376000,184.376000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Delayed Ambition,Novel CDR,6.643057000,6643.057000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Delayed Ambition,Novel CDR,19.511100000,19511.100000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Delayed Ambition,Total CDR,1.734332000,1734.332000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Delayed Ambition,Total CDR,2.267492000,2267.492000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Delayed Ambition,Total CDR,14.312820000,14312.820000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Delayed Ambition,Total CDR,23.250970000,23250.970000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Delayed Ambition,Conventional CDR,2.582212000,2582.212000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Delayed Ambition,Conventional CDR,3.405606000,3405.606000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Delayed Ambition,Conventional CDR,4.850478000,4850.478000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Delayed Ambition,Conventional CDR,9.041861000,9041.861000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Delayed Ambition,Novel CDR,0.023163000,23.163000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Delayed Ambition,Novel CDR,0.289079000,289.079000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Delayed Ambition,Novel CDR,4.825537000,4825.537000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Delayed Ambition,Novel CDR,16.039400000,16039.400000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Delayed Ambition,Total CDR,2.605375000,2605.375000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Delayed Ambition,Total CDR,3.694685000,3694.685000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Delayed Ambition,Total CDR,9.676015000,9676.015000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Delayed Ambition,Total CDR,25.081260000,25081.260000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Conventional CDR,2.830686000,2830.686000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Conventional CDR,3.217486000,3217.486000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Conventional CDR,5.116366000,5116.366000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Conventional CDR,6.581556000,6581.556000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Novel CDR,0.028833000,28.833000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Novel CDR,0.038543000,38.543000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Novel CDR,0.736591000,736.591000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Novel CDR,17.368790000,17368.790000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Total CDR,2.859519000,2859.519000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Total CDR,3.256029000,3256.029000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Total CDR,5.852957000,5852.957000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Delayed Ambition,Total CDR,23.950350000,23950.350000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Delayed Ambition,Conventional CDR,2.259349000,2259.349000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Delayed Ambition,Conventional CDR,2.307689000,2307.689000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Delayed Ambition,Conventional CDR,3.037858000,3037.858000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Delayed Ambition,Conventional CDR,6.372176000,6372.176000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Delayed Ambition,Novel CDR,0.044680000,44.680000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Delayed Ambition,Novel CDR,0.073547000,73.547000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Delayed Ambition,Novel CDR,1.812748000,1812.748000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Delayed Ambition,Novel CDR,11.471930000,11471.930000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Delayed Ambition,Total CDR,2.304029000,2304.029000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Delayed Ambition,Total CDR,2.381236000,2381.236000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Delayed Ambition,Total CDR,4.850606000,4850.606000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Delayed Ambition,Total CDR,17.844110000,17844.110000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Delayed Ambition,Conventional CDR,2.625557000,2625.557000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Delayed Ambition,Conventional CDR,2.976644000,2976.644000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Delayed Ambition,Conventional CDR,4.278151000,4278.151000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Delayed Ambition,Conventional CDR,6.808243000,6808.243000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Delayed Ambition,Novel CDR,0.034415000,34.415000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Delayed Ambition,Novel CDR,0.186897000,186.897000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Delayed Ambition,Novel CDR,4.426539000,4426.539000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Delayed Ambition,Novel CDR,7.966449000,7966.449000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Delayed Ambition,Total CDR,2.659973000,2659.973000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Delayed Ambition,Total CDR,3.163541000,3163.541000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Delayed Ambition,Total CDR,8.704690000,8704.690000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Delayed Ambition,Total CDR,14.774690000,14774.690000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Conventional CDR,2.625385000,2625.385000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Conventional CDR,2.716778000,2716.778000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Conventional CDR,3.940861000,3940.861000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Conventional CDR,8.635650000,8635.650000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Novel CDR,0.031655000,31.655000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Novel CDR,0.123330000,123.330000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Novel CDR,1.863905000,1863.905000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Novel CDR,19.824110000,19824.110000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Total CDR,2.657040000,2657.040000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Total CDR,2.840109000,2840.109000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Total CDR,5.804766000,5804.766000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Delayed Ambition,Total CDR,28.459760000,28459.760000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Delayed Ambition,Conventional CDR,2.928797000,2928.797000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Delayed Ambition,Conventional CDR,3.394464000,3394.464000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Delayed Ambition,Conventional CDR,5.751730000,5751.730000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Delayed Ambition,Conventional CDR,6.942519000,6942.519000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Delayed Ambition,Novel CDR,0.078495000,78.495000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Delayed Ambition,Novel CDR,0.189584000,189.584000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Delayed Ambition,Novel CDR,2.442199000,2442.199000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Delayed Ambition,Novel CDR,15.124460000,15124.460000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Delayed Ambition,Total CDR,3.007292000,3007.292000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Delayed Ambition,Total CDR,3.584048000,3584.048000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Delayed Ambition,Total CDR,8.193929000,8193.929000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Delayed Ambition,Total CDR,22.066980000,22066.980000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Highest Ambition,Conventional CDR,2.831061000,2831.061000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Highest Ambition,Conventional CDR,3.970718000,3970.718000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Highest Ambition,Conventional CDR,7.317607000,7317.607000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Highest Ambition,Conventional CDR,6.309026000,6309.026000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Highest Ambition,Novel CDR,0.021624000,21.624000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Highest Ambition,Novel CDR,0.030396000,30.396000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Highest Ambition,Novel CDR,0.944127000,944.127000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Highest Ambition,Novel CDR,8.031897000,8031.897000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Highest Ambition,Total CDR,2.852685000,2852.685000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Highest Ambition,Total CDR,4.001115000,4001.115000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Highest Ambition,Total CDR,8.261735000,8261.735000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Highest Ambition,Total CDR,14.340920000,14340.920000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Highest Ambition,Conventional CDR,2.602365000,2602.365000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Highest Ambition,Conventional CDR,3.409815000,3409.815000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Highest Ambition,Conventional CDR,8.447289000,8447.289000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Highest Ambition,Conventional CDR,2.156999000,2156.999000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Highest Ambition,Novel CDR,0.328257000,328.257000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Highest Ambition,Novel CDR,0.615510000,615.510000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Highest Ambition,Novel CDR,4.839588000,4839.588000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Highest Ambition,Novel CDR,17.764020000,17764.020000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Highest Ambition,Total CDR,2.930623000,2930.623000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Highest Ambition,Total CDR,4.025324000,4025.324000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Highest Ambition,Total CDR,13.286880000,13286.880000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Highest Ambition,Total CDR,19.921020000,19921.020000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Highest Ambition,Conventional CDR,2.582211000,2582.211000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Highest Ambition,Conventional CDR,3.393084000,3393.084000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Highest Ambition,Conventional CDR,4.825388000,4825.388000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Highest Ambition,Conventional CDR,8.967976000,8967.976000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Highest Ambition,Novel CDR,0.024876000,24.876000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Highest Ambition,Novel CDR,0.363526000,363.526000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Highest Ambition,Novel CDR,6.363320000,6363.320000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Highest Ambition,Novel CDR,16.026080000,16026.080000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Highest Ambition,Total CDR,2.607087000,2607.087000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Highest Ambition,Total CDR,3.756610000,3756.610000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Highest Ambition,Total CDR,11.188710000,11188.710000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Highest Ambition,Total CDR,24.994050000,24994.050000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Conventional CDR,3.170706000,3170.706000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Conventional CDR,3.726216000,3726.216000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Conventional CDR,5.576206000,5576.206000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Conventional CDR,6.242766000,6242.766000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Novel CDR,0.084873000,84.873000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Novel CDR,0.326843000,326.843000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Novel CDR,3.174981000,3174.981000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Novel CDR,9.019413000,9019.413000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Total CDR,3.255579000,3255.579000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Total CDR,4.053059000,4053.059000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Total CDR,8.751187000,8751.187000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Highest Ambition,Total CDR,15.262180000,15262.180000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Highest Ambition,Conventional CDR,2.378992000,2378.992000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Highest Ambition,Conventional CDR,2.563968000,2563.968000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Highest Ambition,Conventional CDR,3.338127000,3338.127000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Highest Ambition,Conventional CDR,3.602905000,3602.905000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Highest Ambition,Novel CDR,0.049800000,49.800000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Highest Ambition,Novel CDR,0.088352000,88.352000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Highest Ambition,Novel CDR,3.187764000,3187.764000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Highest Ambition,Novel CDR,12.234580000,12234.580000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Highest Ambition,Total CDR,2.428793000,2428.793000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Highest Ambition,Total CDR,2.652321000,2652.321000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Highest Ambition,Total CDR,6.525890000,6525.890000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Highest Ambition,Total CDR,15.837490000,15837.490000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Conventional CDR,2.625735000,2625.735000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Conventional CDR,2.804569000,2804.569000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Conventional CDR,3.794463000,3794.463000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Conventional CDR,4.794656000,4794.656000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Novel CDR,0.071015000,71.015000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Novel CDR,0.414829000,414.829000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Novel CDR,3.530942000,3530.942000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Novel CDR,4.723276000,4723.276000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Total CDR,2.696750000,2696.750000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Total CDR,3.219399000,3219.399000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Total CDR,7.325405000,7325.405000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Highest Ambition,Total CDR,9.517933000,9517.933000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Highest Ambition,Conventional CDR,3.135743000,3135.743000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Highest Ambition,Conventional CDR,3.507312000,3507.312000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Highest Ambition,Conventional CDR,5.943136000,5943.136000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Highest Ambition,Conventional CDR,5.986171000,5986.171000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Highest Ambition,Novel CDR,0.180911000,180.911000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Highest Ambition,Novel CDR,0.398640000,398.640000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Highest Ambition,Novel CDR,3.825595000,3825.595000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Highest Ambition,Novel CDR,5.430621000,5430.621000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Highest Ambition,Total CDR,3.316654000,3316.654000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Highest Ambition,Total CDR,3.905952000,3905.952000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Highest Ambition,Total CDR,9.768731000,9768.731000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Highest Ambition,Total CDR,11.416790000,11416.790000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Targets & Pledges,Conventional CDR,2.523366000,2523.366000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Targets & Pledges,Conventional CDR,2.994219000,2994.219000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Targets & Pledges,Conventional CDR,3.921245000,3921.245000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Targets & Pledges,Conventional CDR,3.666008000,3666.008000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Targets & Pledges,Novel CDR,0.011815000,11.815000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Targets & Pledges,Novel CDR,0.033833000,33.833000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Targets & Pledges,Novel CDR,1.369150000,1369.150000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Targets & Pledges,Novel CDR,8.948732000,8948.732000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,AIM 3.0,Targets & Pledges,Total CDR,2.535182000,2535.182000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,AIM 3.0,Targets & Pledges,Total CDR,3.028052000,3028.052000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,AIM 3.0,Targets & Pledges,Total CDR,5.290395000,5290.395000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,AIM 3.0,Targets & Pledges,Total CDR,12.614740000,12614.740000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Targets & Pledges,Conventional CDR,2.006976000,2006.976000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Targets & Pledges,Conventional CDR,2.437673000,2437.673000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Targets & Pledges,Conventional CDR,8.272274000,8272.274000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Targets & Pledges,Conventional CDR,1.496016000,1496.016000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Targets & Pledges,Novel CDR,0.081239000,81.239000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Targets & Pledges,Novel CDR,0.107177000,107.177000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Targets & Pledges,Novel CDR,1.920525000,1920.525000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Targets & Pledges,Novel CDR,11.158260000,11158.260000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,GCAM 8.2,Targets & Pledges,Total CDR,2.088214000,2088.214000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,GCAM 8.2,Targets & Pledges,Total CDR,2.544850000,2544.850000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,GCAM 8.2,Targets & Pledges,Total CDR,10.192800000,10192.800000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,GCAM 8.2,Targets & Pledges,Total CDR,12.654280000,12654.280000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Targets & Pledges,Conventional CDR,2.582211000,2582.211000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Targets & Pledges,Conventional CDR,3.406861000,3406.861000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Targets & Pledges,Conventional CDR,4.854431000,4854.431000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Targets & Pledges,Conventional CDR,9.386094000,9386.094000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Targets & Pledges,Novel CDR,0.023325000,23.325000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Targets & Pledges,Novel CDR,0.319039000,319.039000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Targets & Pledges,Novel CDR,4.245571000,4245.571000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Targets & Pledges,Novel CDR,7.006728000,7006.728000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,IMAGE 3.4,Targets & Pledges,Total CDR,2.605536000,2605.536000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,IMAGE 3.4,Targets & Pledges,Total CDR,3.725901000,3725.901000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,IMAGE 3.4,Targets & Pledges,Total CDR,9.100002000,9100.002000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,IMAGE 3.4,Targets & Pledges,Total CDR,16.392820000,16392.820000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Conventional CDR,2.830686000,2830.686000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Conventional CDR,3.217486000,3217.486000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Conventional CDR,5.056726000,5056.726000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Conventional CDR,6.307016000,6307.016000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Novel CDR,0.028833000,28.833000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Novel CDR,0.038543000,38.543000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Novel CDR,0.985561000,985.561000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Novel CDR,3.123163000,3123.163000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Total CDR,2.859519000,2859.519000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Total CDR,3.256029000,3256.029000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Total CDR,6.042287000,6042.287000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,MESSAGEix-GLOBIOM 2.1-R12,Targets & Pledges,Total CDR,9.430179000,9430.179000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Targets & Pledges,Conventional CDR,2.259349000,2259.349000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Targets & Pledges,Conventional CDR,2.307689000,2307.689000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Targets & Pledges,Conventional CDR,2.312172000,2312.172000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Targets & Pledges,Conventional CDR,2.273404000,2273.404000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Targets & Pledges,Novel CDR,0.044179000,44.179000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Targets & Pledges,Novel CDR,0.070485000,70.485000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Targets & Pledges,Novel CDR,1.129981000,1129.981000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Targets & Pledges,Novel CDR,5.321914000,5321.914000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,OPEN-PROM 2.0,Targets & Pledges,Total CDR,2.303528000,2303.528000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,OPEN-PROM 2.0,Targets & Pledges,Total CDR,2.378174000,2378.174000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,OPEN-PROM 2.0,Targets & Pledges,Total CDR,3.442154000,3442.154000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,OPEN-PROM 2.0,Targets & Pledges,Total CDR,7.595318000,7595.318000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Targets & Pledges,Conventional CDR,2.626016000,2626.016000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Targets & Pledges,Conventional CDR,2.983345000,2983.345000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Targets & Pledges,Conventional CDR,4.015512000,4015.512000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Targets & Pledges,Conventional CDR,5.775037000,5775.037000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Targets & Pledges,Novel CDR,0.021363000,21.363000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Targets & Pledges,Novel CDR,0.148566000,148.566000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Targets & Pledges,Novel CDR,1.773063000,1773.063000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Targets & Pledges,Novel CDR,5.646207000,5646.207000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,POLES 2.4,Targets & Pledges,Total CDR,2.647379000,2647.379000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,POLES 2.4,Targets & Pledges,Total CDR,3.131911000,3131.911000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,POLES 2.4,Targets & Pledges,Total CDR,5.788575000,5788.575000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,POLES 2.4,Targets & Pledges,Total CDR,11.421240000,11421.240000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Conventional CDR,2.625385000,2625.385000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Conventional CDR,2.716778000,2716.778000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Conventional CDR,2.801587000,2801.587000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Conventional CDR,2.768607000,2768.607000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Novel CDR,0.031655000,31.655000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Novel CDR,0.123330000,123.330000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Novel CDR,0.576234000,576.234000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Novel CDR,1.422424000,1422.424000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Total CDR,2.657040000,2657.040000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Total CDR,2.840109000,2840.109000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Total CDR,3.377821000,3377.821000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,REMIND-MAgPIE 3.5-4.11,Targets & Pledges,Total CDR,4.191031000,4191.031000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Targets & Pledges,Conventional CDR,2.928797000,2928.797000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Targets & Pledges,Conventional CDR,3.394464000,3394.464000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Targets & Pledges,Conventional CDR,5.928324000,5928.324000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Targets & Pledges,Conventional CDR,6.502346000,6502.346000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Targets & Pledges,Novel CDR,0.069774000,69.774000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Targets & Pledges,Novel CDR,0.172146000,172.146000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Targets & Pledges,Novel CDR,1.941067000,1941.067000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Targets & Pledges,Novel CDR,6.531638000,6531.638000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2030,World,WITCH 6.0,Targets & Pledges,Total CDR,2.998571000,2998.571000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2035,World,WITCH 6.0,Targets & Pledges,Total CDR,3.566610000,3566.610000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2050,World,WITCH 6.0,Targets & Pledges,Total CDR,7.869391000,7869.391000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv
+2100,World,WITCH 6.0,Targets & Pledges,Total CDR,13.033980000,13033.980000000,integrated_assessment_model_scenario,Core indicator: total CDR,Gt CO2/yr,SoCDR-Edition-3-Chapter-8.csv

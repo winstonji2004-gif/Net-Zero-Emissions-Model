@@ -1,0 +1,9 @@
+﻿year,geography,novel_cdr_mtco2_per_year,data_status,source_indicator,source_file
+2023,World,1.398980000,actual_delivered_cdr,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2024,World,1.801210000,actual_delivered_cdr,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2025,World,1.975770000,actual_delivered_cdr,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2026,World,5.710470000,pipeline_estimate,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2027,World,5.800270000,pipeline_estimate,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2028,World,7.076170000,pipeline_estimate,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2029,World,7.874270000,pipeline_estimate,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv
+2030,World,8.330970000,pipeline_estimate,Pipeline CDR,SoCDR-Edition-3-Chapter-7.csv

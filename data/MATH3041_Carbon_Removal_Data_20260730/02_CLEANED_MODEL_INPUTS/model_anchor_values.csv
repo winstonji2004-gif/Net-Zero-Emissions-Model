@@ -1,0 +1,6 @@
+﻿model_input,year,value,unit,source_output_file,source_column,value_status,relationship_to_draft
+conventional_cdr_2023,2023,2194.050000000,Mt CO2/yr,socdr_conventional_cdr_global_2005_2024.csv,conventional_cdr_mtco2_per_year,bookkeeping_model_estimate,Exact value 2194.05 used as the 2023 conventional-removal baseline.
+novel_cdr_2023_pipeline_total,2023,1.398980000,Mt CO2/yr,socdr_novel_cdr_pipeline_total_global_2023_2030.csv,novel_cdr_mtco2_per_year,actual_delivered_cdr,"Rounds to 1.399, matching the draft's 2023 novel-removal baseline."
+novel_cdr_2030_pipeline_total,2030,8.330970000,Mt CO2/yr,socdr_novel_cdr_pipeline_total_global_2023_2030.csv,novel_cdr_mtco2_per_year,pipeline_estimate,"Rounds to 8.331, matching the draft's 2030 novel-removal endpoint."
+novel_cdr_2023_published_aggregate,2023,1.400000000,Mt CO2/yr,socdr_novel_cdr_global_2017_2025.csv,novel_cdr_mtco2_per_year,reported_historical_estimate,Published aggregate reference; differs slightly from the pipeline total because it is a distinct indicator.
+novel_cdr_2023_method_sum,2023,1.410244034,Mt CO2/yr,socdr_novel_cdr_by_method_global_2017_2025.csv,novel_cdr_mtco2_per_year,calculated_from_reported_method_rows,Method-level cross-check; not substituted for the pipeline baseline.

@@ -1,0 +1,54 @@
+﻿file,variable,data_type,unit,description,sign_convention,source_variable_or_rule
+cross_source_reference_global_2005_2024.csv,carbon_stock_change_in_forests_removal_positive_mtco2_per_year,number,Mt CO2/yr,FAOSTAT net forest carbon-stock change,Positive means removal,faostat_forest_fluxes_world_1990_2025.csv
+cross_source_reference_global_2005_2024.csv,conventional_cdr_mtco2_per_year,number,Mt CO2/yr,SoCDR conventional CDR,Positive means removal,socdr_conventional_cdr_global_2005_2024.csv
+cross_source_reference_global_2005_2024.csv,forestland_removal_positive_mtco2_per_year,number,Mt CO2/yr,FAOSTAT forestland removals,Positive means removal,faostat_forest_fluxes_world_1990_2025.csv
+cross_source_reference_global_2005_2024.csv,land_sink_mtco2_per_year,number,Mt CO2/yr,Global Carbon Budget land sink,Positive means uptake,gcb_land_ocean_sinks_global_1750_2024.csv
+cross_source_reference_global_2005_2024.csv,natural_land_and_ocean_sink_mtco2_per_year,number,Mt CO2/yr,Global Carbon Budget land plus ocean sink,Positive means uptake,gcb_land_ocean_sinks_global_1750_2024.csv
+cross_source_reference_global_2005_2024.csv,net_forest_conversion_removal_positive_mtco2_per_year,number,Mt CO2/yr,FAOSTAT net forest conversion flux,Positive means removal; negative means emission,faostat_forest_fluxes_world_1990_2025.csv
+cross_source_reference_global_2005_2024.csv,ocean_sink_mtco2_per_year,number,Mt CO2/yr,Global Carbon Budget ocean sink,Positive means uptake,gcb_land_ocean_sinks_global_1750_2024.csv
+faostat_forest_fluxes_world_1990_2025.csv,carbon_stock_change_in_forests_flag,text,,FAOSTAT value flag for Carbon stock change in forests,Not applicable,Y####F
+faostat_forest_fluxes_world_1990_2025.csv,carbon_stock_change_in_forests_official_ktco2_per_year,number,kt CO2/yr,Overall forest carbon-stock change in official units,Negative means net removal; positive means net emission,"Carbon stock change in forests, Value"
+faostat_forest_fluxes_world_1990_2025.csv,carbon_stock_change_in_forests_removal_positive_mtco2_per_year,number,Mt CO2/yr,Overall forest carbon-stock change with removal-positive sign,Positive means net removal; negative means net emission,-official value / 1000
+faostat_forest_fluxes_world_1990_2025.csv,forestland_flag,text,,FAOSTAT value flag for Forestland,Not applicable,Y####F
+faostat_forest_fluxes_world_1990_2025.csv,forestland_official_ktco2_per_year,number,kt CO2/yr,Forestland emissions/removals in official units,Negative means removal; positive means emission,"Forestland, Value"
+faostat_forest_fluxes_world_1990_2025.csv,forestland_removal_positive_mtco2_per_year,number,Mt CO2/yr,Forestland flux with removal-positive sign,Positive means removal; negative means emission,-official value / 1000
+faostat_forest_fluxes_world_1990_2025.csv,net_forest_conversion_flag,text,,FAOSTAT value flag for Net Forest conversion,Not applicable,Y####F
+faostat_forest_fluxes_world_1990_2025.csv,net_forest_conversion_official_ktco2_per_year,number,kt CO2/yr,Net forest conversion emissions/removals in official units,Negative means removal; positive means emission,"Net Forest conversion, Value"
+faostat_forest_fluxes_world_1990_2025.csv,net_forest_conversion_removal_positive_mtco2_per_year,number,Mt CO2/yr,Net forest conversion flux with removal-positive sign,Positive means removal; negative means emission,-official value / 1000
+gcb_land_ocean_sinks_global_1750_2024.csv,cement_carbonation_sink_gtc_per_year,number,Gt C/yr,Cement carbonation sink,Positive means net uptake,cement carbonation sink
+gcb_land_ocean_sinks_global_1750_2024.csv,land_sink_gtc_per_year,number,Gt C/yr,Net global land carbon sink,Positive means net uptake,land sink
+gcb_land_ocean_sinks_global_1750_2024.csv,natural_land_and_ocean_sink_mtco2_per_year,number,Mt CO2/yr,Land plus ocean sink converted to CO2 mass,Positive means net uptake,(land sink + ocean sink) x 44/12 x 1000
+gcb_land_ocean_sinks_global_1750_2024.csv,ocean_sink_gtc_per_year,number,Gt C/yr,Net global ocean carbon sink,Positive means net uptake,ocean sink
+model_anchor_values.csv,model_input,text,,Name of the model quantity being audited,Not applicable,Assigned from model mapping
+model_anchor_values.csv,relationship_to_draft,text,,How the value relates to the supplied equations,Not applicable,Direct comparison
+model_anchor_values.csv,value,number,Mt CO2/yr,Source value or transparent aggregation,Positive means removal,Named source file and column
+model_anchor_values.csv,value_status,text,,"Historical, calculated or pipeline status",Not applicable,Source context
+socdr_conventional_cdr_global_2005_2024.csv,conventional_cdr_mtco2_per_year,number,Mt CO2/yr,Conventional CDR estimate,Positive means atmospheric CO2 removal,Value
+socdr_conventional_cdr_global_2005_2024.csv,data_status,text,,Interpretation of the value,Not applicable,Assigned from source context
+socdr_conventional_cdr_global_2005_2024.csv,geography,text,,Geographic coverage,Not applicable,Region
+socdr_conventional_cdr_global_2005_2024.csv,method,text,,Removal-method boundary,Not applicable,Method
+socdr_conventional_cdr_global_2005_2024.csv,source_model,text,,Bookkeeping-model aggregation,Not applicable,Model
+socdr_conventional_cdr_global_2005_2024.csv,year,integer,year,Calendar year,Not applicable,Year
+socdr_model_core_historical_global_2005_2025.csv,conventional_cdr_mtco2_per_year,number,Mt CO2/yr,Conventional CDR when reported,Positive means atmospheric CO2 removal,socdr_conventional_cdr_global_2005_2024.csv
+socdr_model_core_historical_global_2005_2025.csv,novel_cdr_mtco2_per_year,number,Mt CO2/yr,Novel CDR when reported,Positive means atmospheric CO2 removal,socdr_novel_cdr_global_2017_2025.csv
+socdr_model_core_historical_global_2005_2025.csv,total_cdr_mtco2_per_year,number,Mt CO2/yr,Sum when both components are available,Positive means atmospheric CO2 removal,Row sum with both values required
+socdr_model_core_historical_global_2005_2025.csv,total_value_available,boolean,,Whether the total is supported by both source components,Not applicable,Non-missing total
+socdr_novel_cdr_by_method_global_2017_2025.csv,method,text,,Novel CDR method,Not applicable,Method
+socdr_novel_cdr_by_method_global_2017_2025.csv,novel_cdr_mtco2_per_year,number,Mt CO2/yr,Novel CDR for the method and year,Positive means atmospheric CO2 removal,Value
+socdr_novel_cdr_by_method_global_2017_2025.csv,year,integer,year,Calendar year,Not applicable,Year
+socdr_novel_cdr_global_2017_2025.csv,data_status,text,,Interpretation of the value,Not applicable,Assigned from source context
+socdr_novel_cdr_global_2017_2025.csv,novel_cdr_mtco2_per_year,number,Mt CO2/yr,Published global novel CDR total,Positive means atmospheric CO2 removal,Value
+socdr_novel_cdr_global_2017_2025.csv,year,integer,year,Calendar year,Not applicable,Year
+socdr_novel_cdr_pipeline_global_2023_2030.csv,component,text,,Achieved baseline or additional project capacity,Not applicable,Suffix of Method
+socdr_novel_cdr_pipeline_global_2023_2030.csv,data_status,text,,Actual or pipeline interpretation,Not applicable,"Year, component and Notes"
+socdr_novel_cdr_pipeline_global_2023_2030.csv,method,text,,Novel CDR method,Not applicable,Method with suffix removed
+socdr_novel_cdr_pipeline_global_2023_2030.csv,novel_cdr_mtco2_per_year,number,Mt CO2/yr,Novel CDR delivered or in the pipeline,Positive means atmospheric CO2 removal,Value
+socdr_novel_cdr_pipeline_global_2023_2030.csv,year,integer,year,Calendar year,Not applicable,Year
+socdr_novel_cdr_pipeline_total_global_2023_2030.csv,data_status,text,,Actual-delivery or pipeline status,Not applicable,Assigned from year
+socdr_novel_cdr_pipeline_total_global_2023_2030.csv,novel_cdr_mtco2_per_year,number,Mt CO2/yr,Sum of all pipeline components for the year,Positive means atmospheric CO2 removal,Sum of pipeline detail values
+socdr_novel_cdr_pipeline_total_global_2023_2030.csv,year,integer,year,Calendar year,Not applicable,year
+socdr_scenario_total_cdr_global_2030_2100.csv,cdr_category,text,,"Conventional, novel or total CDR",Not applicable,Subtype
+socdr_scenario_total_cdr_global_2030_2100.csv,model,text,,Integrated assessment model,Not applicable,Model
+socdr_scenario_total_cdr_global_2030_2100.csv,scenario,text,,Policy-ambition pathway,Not applicable,Scenario
+socdr_scenario_total_cdr_global_2030_2100.csv,value_gtco2_per_year,number,Gt CO2/yr,Scenario CDR value in source units,Positive means atmospheric CO2 removal,Value
+socdr_scenario_total_cdr_global_2030_2100.csv,value_mtco2_per_year,number,Mt CO2/yr,Scenario CDR value converted for consistency,Positive means atmospheric CO2 removal,Value x 1000
